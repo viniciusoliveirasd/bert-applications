@@ -11,7 +11,9 @@ We will also inspire our work and research in the pytorch implementation of BERT
 In a first moment we have devoted all our efforts to better understand how it works and why it is considered a breakthrough in the NLP reasearch field. Some remarkable material can be found in the internet including the following ones :
 
 *The Bert paper itself 
+
 *https://jalammar.github.io/illustrated-bert/
+
 *https://jalammar.github.io/illustrated-transformer/
 
 
