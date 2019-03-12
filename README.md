@@ -17,10 +17,10 @@ Markup: *The Bert paper itself
 
 In a second step we will be fine-tuning, adapting and applying existing models to real-life applications as Kaggles competitions and the SQuAD Dataset. Some of the competitions we have applied and/or are intending to apply are: 
 
-Use Case  | Link | Our results
-------------- | ------------- | 
- Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score:  
-  SQuaD Dataset |  |
+|Use Case  | Link | Our results|
+|------------- | ------------- | 
+|Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score:  |
+|SQuaD Dataset |  | |
 
 For the moment we are using Azure VM instances with a Tesla K80 GPU. 
 Some tests were run in the GPU environment with TPU but results are not yet ready. 
