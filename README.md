@@ -21,9 +21,12 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 
 | Use Case  | Link | Our results |
-| ---------:| ----:|:-----------:|
-| Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score:  |
+|:---------:|:----:|:-----------:|
+| Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score 0.60 / Acc: 0.96 |
+|Movie Review Sentiment Analysis|  -| -|
 | SQuaD Dataset |  -| -|
+| Toxic Comment Classification Challenge |  -| -|
+| Detecting Insults in Social Commentary |  -| -|
 
 
 
