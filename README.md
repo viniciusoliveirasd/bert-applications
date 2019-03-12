@@ -21,9 +21,9 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 
 | Use Case  | Link | Our results |
-| ------------- | ------------- | 
+| ---------:| ----:|:-----------:|
 | Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score:  |
-| SQuaD Dataset |  | |
+| SQuaD Dataset |  -| -|
 
 
 
