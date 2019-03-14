@@ -2,4 +2,7 @@
 Quora_Insincere_Questions_Classification/model_repo/
 Quora_Insincere_Questions_Classification/uncased_L-12_H-768_A-12.zip
 .ipynb_checkpoints/
+Toxic_Comment_Classification_Challenge/bert-multilabel-classification/model_repo
+Toxic_Comment_Classification_Challenge/data
+
 
