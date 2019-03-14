@@ -22,7 +22,7 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 | Use Case  | Link | Our results |
 |:---------:|:----:|:-----------:|
-| Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score 0.60 / Acc: 0.96 |
+| Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score 0.70240 / Acc: 0.96 |
 |Movie Review Sentiment Analysis|  https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/71421 | -|
 | SQuaD Dataset |  https://rajpurkar.github.io/SQuAD-explorer/ | -|
 | Toxic Comment Classification Challenge |  https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/ | -|
