@@ -29,7 +29,7 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 Instructions to run the code:
 
-## Quora Insincere Questions Classification:
+## Quora Insincere Questions Classification
 
 To finetune BERT for this competition please <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/data
 " target="_blank">download the dataset from the Kaggle competition</a> and put it in a folder called `input` inside the directory containing the `bert-classification.ipynb` script. 
@@ -39,7 +39,7 @@ You should have installed pandas, numpy, sklearn, tensorflow, zipfile, matplotli
 It took 48 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
 
 
-## Fake News Detection:
+## Fake News Detection
 
 To finetune BERT for this competition please <a href="https://www.kaggle.com/c/fake-news-pair-classification-challenge/data
 " target="_blank">download the dataset from the Kaggle competition</a> and put it in a folder called `input` inside the directory containing the `train.py` script. 
