@@ -10,7 +10,7 @@ We will also inspire our work and research in the pytorch implementation of BERT
 
 In a first moment we have devoted all our efforts to better understand how it works and why it is considered a breakthrough in the NLP reasearch field. Some remarkable material can be found in the internet including the following ones :
 
-* The Bert paper itself 
+* Bert paper: https://arxiv.org/pdf/1810.04805.pdf 
 
 * https://jalammar.github.io/illustrated-bert/
 
@@ -27,7 +27,8 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 | Toxic Comment Classification Challenge - Glove Comparation |  https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/ |Mean column-wise Area under ROC-Curve // Glove: 0.97718 Vs Bert: 0.97922 |
 | French transformation of word vectors |  https://www.kaggle.com/c/detecting-insults-in-social-commentary | Extracted Word vectors but did not implement a specific task |
 
-
+Fake News Detection:
+To run the finetune BERT for this competition please download the dataset from the Kaggle competition in put it in the same folder of the `train.py` script inside a folder called `input`.
 
 For the moment we are using Azure VM instances with a Tesla K80 GPU. 
 Some tests were run in the GPU environment with TPU but results are not yet ready. 
