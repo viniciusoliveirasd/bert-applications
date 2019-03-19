@@ -1,4 +1,4 @@
-### bert-benchmarks
+# bert-benchmarks
 Google's Bert algorithm study and real-life applications for Deep Learning project
 
 
@@ -29,7 +29,7 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 Instructions to run the code:
 
-# Fake News Detection:
+## Fake News Detection:
 
 To finetune BERT for this competition please download the dataset from the Kaggle competition and put it in a folder called `input` inside the directory containing the `train.py` script. 
 
