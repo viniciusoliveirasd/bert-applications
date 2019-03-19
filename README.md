@@ -28,7 +28,11 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 | French transformation of word vectors |  https://www.kaggle.com/c/detecting-insults-in-social-commentary | Extracted Word vectors but did not implement a specific task |
 
 Fake News Detection:
-To run the finetune BERT for this competition please download the dataset from the Kaggle competition in put it in the same folder of the `train.py` script inside a folder called `input`.
+To finetune BERT for this competition please download the dataset from the Kaggle competition and put it in a folder called `input` inside the directory containing the `train.py` script. 
+You should have installed pandas, numpy, sklearn, pytorch and pytorch-pretrained-bert.
+`train.py` script based on the Kernel: https://www.kaggle.com/bbqlp33/bert-huggingface-pytorch-pretrained-bert
+It took 7 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
+
 
 For the moment we are using Azure VM instances with a Tesla K80 GPU. 
 Some tests were run in the GPU environment with TPU but results are not yet ready. 
