@@ -1,4 +1,4 @@
-# bert-benchmarks
+### bert-benchmarks
 Google's Bert algorithm study and real-life applications for Deep Learning project
 
 
@@ -29,10 +29,14 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 
 Instructions to run the code:
 
-Fake News Detection:
+# Fake News Detection:
+
 To finetune BERT for this competition please download the dataset from the Kaggle competition and put it in a folder called `input` inside the directory containing the `train.py` script. 
+
 You should have installed pandas, numpy, sklearn, pytorch and pytorch-pretrained-bert.
+
 `train.py` script based on the Kernel: https://www.kaggle.com/bbqlp33/bert-huggingface-pytorch-pretrained-bert
+
 It took 7 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
 
 
