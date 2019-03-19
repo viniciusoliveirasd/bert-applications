@@ -23,7 +23,7 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 | Use Case  | Link | Our results |
 |:---------:|:----:|:-----------:|
 | Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score 0.70240 / Acc: 0.96 |
-| Fake News detection|  https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/71421 | 0.88392 |
+| Fake News detection|  https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/71421 | 0.86535 |
 | Toxic Comment Classification Challenge - Glove Comparation |  https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/ |Mean column-wise Area under ROC-Curve // Glove: 0.97718 Vs Bert: 0.97922 |
 | French transformation of word vectors |  https://www.kaggle.com/c/detecting-insults-in-social-commentary | Extracted Word vectors but did not implement a specific task |
 
