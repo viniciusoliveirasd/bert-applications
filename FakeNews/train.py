@@ -45,7 +45,6 @@ val_examples = [InputExample('val', row.title1_zh, row.title2_zh, row.label) for
 test_examples = [InputExample('test', row.title1_zh, row.title2_zh, 'unrelated') for row in test.itertuples()]
 
 orginal_total = len(train_examples)
-# train_examples = train_examples[:int(orginal_total*0.2)]
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 n_gpu = torch.cuda.device_count()
@@ -226,38 +225,14 @@ def predict(model, tokenizer, examples, label_list, eval_batch_size=128):
         input_ids = input_ids.to(device)
         input_mask = input_mask.to(device)
         segment_ids = segment_ids.to(device)
-#         label_ids = label_ids.to(device)
 
         with torch.no_grad():
-#             tmp_eval_loss = model(input_ids, segment_ids, input_mask, label_ids)
             logits = model(input_ids, segment_ids, input_mask)
 
         logits = logits.detach().cpu().numpy()
-#         print(logits)
         res.extend(logits.argmax(-1))
-#         label_ids = label_ids.to('cpu').numpy()
-#         tmp_eval_accuracy = accuracy(logits, label_ids)
-
-#         eval_loss += tmp_eval_loss.mean().item()
-#         eval_accuracy += tmp_eval_accuracy
-
-#         nb_eval_examples += input_ids.size(0)
         nb_eval_steps += 1
 
-#     eval_loss = eval_loss / nb_eval_steps
-#     eval_accuracy = eval_accuracy / nb_eval_examples
-#     loss = tr_loss/nb_tr_steps 
-#     result = {'eval_loss': eval_loss,
-#               'eval_accuracy': eval_accuracy,
-#               'global_step': global_step,
-#               'loss': loss}
-
-#     output_eval_file = os.path.join(output_dir, "eval_results.txt")
-#     with open(output_eval_file, "w") as writer:
-#         logger.info("***** Eval results *****")
-#         for key in sorted(result.keys()):
-#             logger.info("  %s = %s", key, str(result[key]))
-#             writer.write("%s = %s\n" % (key, str(result[key])))
     return res
 
 res = predict(model, tokenizer, test_examples, label_list)
