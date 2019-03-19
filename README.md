@@ -23,15 +23,26 @@ In a second step we will be fine-tuning, adapting and applying existing models t
 | Use Case  | Link | Our results |
 |:---------:|:----:|:-----------:|
 | Kaggle: Quora Insincere Questions Classification  | https://www.kaggle.com/c/quora-insincere-questions-classification | F-Score 0.70240 / Acc: 0.96 |
-| Fake News detection|  https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/71421 | 0.86535 |
-| Toxic Comment Classification Challenge - Glove Comparation |  https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/ |Mean column-wise Area under ROC-Curve // Glove: 0.97718 Vs Bert: 0.97922 |
+| Kaggle: WSDM Fake News detection|  https://www.kaggle.com/c/fake-news-pair-classification-challenge/ | 0.86535 |
+| Kaggle: Toxic Comment Classification Challenge - Glove Comparation |  https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/ |Mean column-wise Area under ROC-Curve // Glove: 0.97718 Vs Bert: 0.97922 |
 | French transformation of word vectors |  https://www.kaggle.com/c/detecting-insults-in-social-commentary | Extracted Word vectors but did not implement a specific task |
 
 Instructions to run the code:
 
+## Quora Insincere Questions Classification:
+
+To finetune BERT for this competition please <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/data
+" target="_blank">download the dataset from the Kaggle competition</a> and put it in a folder called `input` inside the directory containing the `bert-classification.ipynb` script. 
+
+You should have installed pandas, numpy, sklearn, tensorflow, zipfile, matplotlib and tqdm.
+
+It took 48 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
+
+
 ## Fake News Detection:
 
-To finetune BERT for this competition please download the dataset from the Kaggle competition and put it in a folder called `input` inside the directory containing the `train.py` script. 
+To finetune BERT for this competition please <a href="https://www.kaggle.com/c/fake-news-pair-classification-challenge/data
+" target="_blank">download the dataset from the Kaggle competition</a> and put it in a folder called `input` inside the directory containing the `train.py` script. 
 
 You should have installed pandas, numpy, sklearn, pytorch and pytorch-pretrained-bert.
 
