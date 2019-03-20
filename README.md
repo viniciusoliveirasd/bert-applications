@@ -54,7 +54,7 @@ It took 7 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 G
 
 ## Toxic Comments
 
-To finetune BERT for this competition please <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data" target="_blank">download the dataset from the Kaggle competition</a>. Create a input folder, download this dataset in that folder so at the end all the .csv data will be at 'input/jigsaw-toxic-comment-classification-challenge/' inside the directory containing the `train_model_final.py` script. 
+To finetune BERT for this competition please <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data" target="_blank">download the dataset from the Kaggle competition</a>. Create a input folder, download this dataset in that folder so at the end all the .csv data will be at 'input/jigsaw-toxic-comment-classification-challenge/' inside the directory containing the `train_model_final.py` script. You should also create a directory `models` inside toxicComments where you will download the model data <a href="https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip" target="_blank">here</a> and extract it, creating the path `model/uncased_L-12_H-768_A-12`. 
 
 You should have installed keras, pandas, numpy, sklearn, pytorch and pytorch-pretrained-bert.
 
