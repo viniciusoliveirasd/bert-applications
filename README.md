@@ -60,7 +60,7 @@ You should have installed keras, pandas, numpy, sklearn, pytorch and pytorch-pre
 
 `train_model_final.py` script comparing to GloVe performance at <a href="https://www.kaggle.com/jhoward/improved-lstm-baseline-glove-dropout" target="_blank"> this</a> Kernel.
 
-If you want to run all the pipeline, run the `train_model_final.py` python script directly.
+Run all the pipeline script with `python train_model_final.py` directly.
 
 It took 5 hours to train 2 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
 
