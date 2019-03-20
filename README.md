@@ -52,5 +52,16 @@ You should have installed pandas, numpy, sklearn, pytorch and pytorch-pretrained
 It took 7 hours to train 3 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
 
 
+## Toxic Comments
 
-Some tests were run in the GPU environment with TPU but results are not yet ready. 
+To finetune BERT for this competition please <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data" target="_blank">download the dataset from the Kaggle competition</a>. Create a input folder, download this dataset in that folder so at the end all the .csv data will be at 'input/jigsaw-toxic-comment-classification-challenge/' inside the directory containing the `train_model_final.py` script. 
+
+You should have installed keras, pandas, numpy, sklearn, pytorch and pytorch-pretrained-bert.
+
+`train_model_final.py` script comparing to GloVe performance at <a href="https://www.kaggle.com/jhoward/improved-lstm-baseline-glove-dropout" target="_blank"> this</a> Kernel.
+
+If you want to run all the pipeline, run the `train_model_final.py` python script directly.
+
+It took 5 hours to train 2 epochs in an Azure VM: Standard NC24 (24 vcpus, 224 GB memory)
+
+
